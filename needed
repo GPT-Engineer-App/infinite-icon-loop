@@ -1,0 +1,12 @@
+.my-infinite-loop {
+  animation: infinite-scroll 10s linear infinite;
+}
+
+@keyframes infinite-scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
